@@ -6,3 +6,6 @@ ADD Gemfile /myapp/Gemfile
 #ADD Gemfile.lock /myapp/Gemfile.lock
 RUN bundle install
 ADD ./progit2-ja /myapp
+ADD Gemfile /myapp/Gemfile
+ADD Rakefile /myapp/Rakefile
+RUN rm /myapp/Gemfile.lock
