@@ -1,3 +1,5 @@
+[![Docker Repository on Quay](https://quay.io/repository/snickerjp/progit2-ja-ebookbuild/status "Docker Repository on Quay")](https://quay.io/repository/snickerjp/progit2-ja-ebookbuild)
+
 # progit2-ja-ebookbuild-docker
 
 Ebook build on Docker for [progit/progit2-ja](https://github.com/progit/progit2-ja) 
