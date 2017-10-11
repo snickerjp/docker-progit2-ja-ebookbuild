@@ -1,0 +1,7 @@
+version: '2'
+services:
+  dobuild:
+    build: .
+    command: bundle exec rake book:build
+    volumes:
+      - "./progit2-ja:/myapp"
