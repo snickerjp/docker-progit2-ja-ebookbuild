@@ -34,10 +34,14 @@ cp Gemfile progit2-ja/
 cp Rakefile progit2-ja/
 ```
 
-* Build
+* Pre Build
 
 ```
 docker-compose build
 ```
+* Build 
 
+```
+docker-compose up
+```
 
