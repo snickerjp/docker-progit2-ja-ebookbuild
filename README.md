@@ -43,9 +43,16 @@ cp Rakefile progit2-ja/
 ```
 docker-compose build
 ```
-### Build 
+
+### EBOOK Build 
 
 ```
 docker-compose up
+```
+
+### EBOOK Dest
+
+```
+cd progit2-ja
 ```
 
