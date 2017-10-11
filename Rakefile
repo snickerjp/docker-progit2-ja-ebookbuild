@@ -22,7 +22,7 @@ namespace :book do
     puts " -- Mobi output at progit.mobi"
 
     puts "Converting to PDF... (this one takes a while)"
-    `bundle exec asciidoctor-pdf progit.asc 2>/dev/null`
+    `bundle exec asciidoctor-pdf -r asciidoctor-pdf-cjk progit.asc 2>/dev/null`
     puts " -- PDF  output at progit.pdf"
   end
 end
