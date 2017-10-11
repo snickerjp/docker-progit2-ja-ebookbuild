@@ -1,0 +1,3 @@
+[submodule "progit2-ja"]
+	path = progit2-ja
+	url = https://github.com/progit/progit2-ja.git
