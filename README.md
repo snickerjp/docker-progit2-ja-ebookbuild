@@ -29,17 +29,9 @@ OR
 git clone https://github.com/progit/progit2-ja.git
 ```
 
-### Remove origin files
-
-```
-rm progit2-ja/Gemfile*
-rm progit2-ja/Rakefile
-```
-
 ### Copy Gemfile & Rakefile
 
 ```
-cp Gemfile progit2-ja/
 cp Rakefile progit2-ja/
 ```
 
