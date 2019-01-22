@@ -29,7 +29,7 @@ OR
 git clone https://github.com/progit/progit2-ja.git
 ```
 
-### Copy Gemfile & Rakefile
+### Copy Rakefile
 
 ```
 cp Rakefile progit2-ja/
