@@ -2,6 +2,6 @@ version: '2'
 services:
   dobuild:
     build: .
-    command: bundle exec rake book:build
+    command: sh entrypoint.sh
     volumes:
-      - "./progit2-ja:/myapp"
+      - "./progit2-ja:/myapp/progit2-ja"
