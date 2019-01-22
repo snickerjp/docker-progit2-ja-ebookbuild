@@ -23,6 +23,7 @@ cd progit2-ja-ebookbuild-docker
 ### Clone progit2-ja git-repo
 
 ```
+git submodule init
 git submodule update
 OR
 git clone https://github.com/progit/progit2-ja.git
