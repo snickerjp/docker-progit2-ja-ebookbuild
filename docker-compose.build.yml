@@ -1,0 +1,7 @@
+version: '2'
+services:
+  dobuild:
+    build: .
+    command: sh entrypoint.sh
+    volumes:
+      - "./progit2-ja:/myapp/progit2-ja"

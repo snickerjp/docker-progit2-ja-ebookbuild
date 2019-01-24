@@ -1,4 +1,4 @@
-Ebook build on Docker for [progit/progit2-ja](https://github.com/progit/progit2-ja) 
+Ebook build on Docker for [progit/progit2-ja](https://github.com/progit/progit2-ja)
 
 [![DockerHub Badge](http://dockeri.co/image/snickerjp/progit2-ja-ebookbuild)](https://hub.docker.com/r/snickerjp/progit2-ja-ebookbuild/)
 
@@ -38,10 +38,10 @@ cp Rakefile progit2-ja/
 ### Pre Build
 
 ```
-docker-compose build
+docker-compose -f docker-compose.build.yml build
 ```
 
-### EBOOK Build 
+### EBOOK Build
 
 ```
 docker-compose up
