@@ -1,10 +1,37 @@
-Ebook build on Docker for [progit/progit2-ja](https://github.com/progit/progit2-ja) 
+Ebook build on Docker for [progit/progit2-ja](https://github.com/progit/progit2-ja)
 
 [![DockerHub Badge](http://dockeri.co/image/snickerjp/progit2-ja-ebookbuild)](https://hub.docker.com/r/snickerjp/progit2-ja-ebookbuild/)
 
 [![](https://images.microbadger.com/badges/version/snickerjp/progit2-ja-ebookbuild.svg)](https://microbadger.com/images/snickerjp/progit2-ja-ebookbuild "Get your own version badge on microbadger.com")
 [![](https://images.microbadger.com/badges/image/snickerjp/progit2-ja-ebookbuild.svg)](https://microbadger.com/images/snickerjp/progit2-ja-ebookbuild "Get your own image badge on microbadger.com")
 [![Docker Repository on Quay](https://quay.io/repository/snickerjp/progit2-ja-ebookbuild/status "Docker Repository on Quay")](https://quay.io/repository/snickerjp/progit2-ja-ebookbuild)
+
+## How To Use
+
+### Clone this git-repo
+
+```
+git clone https://github.com/snickerjp/progit2-ja-ebookbuild-docker.git
+```
+
+### change dir
+
+```
+cd progit2-ja-ebookbuild-docker
+```
+
+### EBOOK Build
+
+```
+docker-compose up
+```
+
+### EBOOK Dest
+
+```
+cd progit2-ja
+```
+
 
 ## How To Build
 
@@ -38,13 +65,13 @@ cp Rakefile progit2-ja/
 ### Pre Build
 
 ```
-docker-compose build
+docker-compose -f docker-compose.build.yml build
 ```
 
-### EBOOK Build 
+### EBOOK Build
 
 ```
-docker-compose up
+docker-compose -f docker-compose.build.yml up
 ```
 
 ### EBOOK Dest
