@@ -20,6 +20,22 @@ git clone https://github.com/snickerjp/progit2-ja-ebookbuild-docker.git
 cd progit2-ja-ebookbuild-docker
 ```
 
+### Clone progit2-ja git-repo
+
+```
+git submodule init
+git submodule update
+OR
+git clone https://github.com/progit/progit2-ja.git
+```
+
+### Copy file
+
+```
+cp Rakefile progit2-ja/
+cp entrypoint.sh progit2-ja/
+```
+
 ### EBOOK Build
 
 ```
@@ -56,10 +72,11 @@ OR
 git clone https://github.com/progit/progit2-ja.git
 ```
 
-### Copy Rakefile
+### Copy file
 
 ```
 cp Rakefile progit2-ja/
+cp entrypoint.sh progit2-ja/
 ```
 
 ### Pre Build
