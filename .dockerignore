@@ -4,4 +4,3 @@ Dockerfile*
 .github
 .git
 .secretlintrc.json
-package*.json
