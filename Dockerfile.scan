@@ -4,10 +4,13 @@ RUN apt-get update -qq && apt-get install -y build-essential libpq-dev nodejs cu
     && apt-get clean && rm -rf /var/lib/apt/lists/* \
     && mkdir /myapp
 
-COPY entrypoint.sh /myapp/
-COPY Rakefile /myapp/
-COPY progit2-ja /myapp/
+COPY . /myapp
 
 WORKDIR /myapp/progit2-ja
 RUN bundle install && asciidoctor-pdf-cjk-kai_gen_gothic-install
 
+ADD https://get.aquasec.com/microscanner /
+RUN chmod +x /microscanner
+ARG token
+RUN /microscanner ${token}
+RUN echo "No vulnerabilities!"
