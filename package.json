@@ -1,0 +1,26 @@
+{
+  "name": "progit2-ja-ebookbuild-docker",
+  "version": "1.0.0",
+  "description": "Ebook build on Docker for [progit/progit2-ja](https://github.com/progit/progit2-ja)",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "secretlint": "^1.0.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/snickerjp/progit2-ja-ebookbuild-docker.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/snickerjp/progit2-ja-ebookbuild-docker/issues"
+  },
+  "homepage": "https://github.com/snickerjp/progit2-ja-ebookbuild-docker#readme"
+}
