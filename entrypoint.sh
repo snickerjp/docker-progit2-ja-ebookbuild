@@ -1,3 +1,3 @@
 #!/bin/bash
 
-bundle install && bundle exec rake book:build
+bundle update && bundle exec rake book:build
