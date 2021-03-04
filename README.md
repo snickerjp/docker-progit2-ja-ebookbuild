@@ -11,13 +11,13 @@ Ebook build on Docker for [progit/progit2-ja](https://github.com/progit/progit2-
 ### Clone this git-repo
 
 ```
-git clone https://github.com/snickerjp/progit2-ja-ebookbuild-docker.git
+git clone https://github.com/snickerjp/docker-progit2-ja-ebookbuild.git
 ```
 
 ### change dir
 
 ```
-cd progit2-ja-ebookbuild-docker
+cd docker-progit2-ja-ebookbuild
 ```
 
 ### Clone progit2-ja git-repo
@@ -54,13 +54,13 @@ cd progit2-ja
 ### Clone this git-repo
 
 ```
-git clone https://github.com/snickerjp/progit2-ja-ebookbuild-docker.git
+git clone https://github.com/snickerjp/docker-progit2-ja-ebookbuild.git
 ```
 
 ### change dir
 
 ```
-cd progit2-ja-ebookbuild-docker
+cd docker-progit2-ja-ebookbuild
 ```
 
 ### Clone progit2-ja git-repo
