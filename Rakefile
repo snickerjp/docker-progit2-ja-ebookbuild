@@ -25,14 +25,14 @@ namespace :book do
 
     exec_or_raise("epubcheck progit.epub")
 
-    puts "Converting to Mobi (kf8)..."
-    exec_or_raise("bundle exec asciidoctor-epub3 -a ebook-format=kf8 progit.asc")
-    puts " -- Mobi output at progit.mobi"
+#    puts "Converting to Mobi (kf8)..."
+#    exec_or_raise("bundle exec asciidoctor-epub3 -a ebook-format=kf8 progit.asc")
+#    puts " -- Mobi output at progit.mobi"
 
     repo = ENV['TRAVIS_REPO_SLUG']
     puts "Converting to PDF... (this one takes a while)"
-    exec_or_raise("asciidoctor-pdf-cjk-kai_gen_gothic-install")
-    exec_or_raise("bundle exec asciidoctor-pdf -r asciidoctor-pdf-cjk -r asciidoctor-pdf-cjk-kai_gen_gothic -a pdf-style=KaiGenGothicJP progit.asc")
+#    exec_or_raise("asciidoctor-pdf-cjk-kai_gen_gothic-install")
+    exec_or_raise("bundle exec asciidoctor-pdf -r asciidoctor-pdf-cjk -a pdf-theme=/usr/local/bundle/gems/asciidoctor-pdf-cjk-kai_gen_gothic-0.1.1/data/themes/KaiGenGothicJP-theme.yml -a pdf-fontsdir=/usr/local/bundle/gems/asciidoctor-pdf-cjk-kai_gen_gothic-0.1.1/data/fonts progit.asc")
     puts " -- PDF output at progit.pdf"
   end
 
