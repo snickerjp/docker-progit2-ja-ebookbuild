@@ -34,6 +34,7 @@ git clone https://github.com/progit/progit2-ja.git
 ```
 cp Rakefile progit2-ja/
 cp entrypoint.sh progit2-ja/
+cp Gemfile progit2-ja/
 ```
 
 ### EBOOK Build
@@ -50,6 +51,10 @@ cd progit2-ja
 
 
 ## How To Build
+
+```
+Do not build now. at 03/04/2021
+```
 
 ### Clone this git-repo
 
