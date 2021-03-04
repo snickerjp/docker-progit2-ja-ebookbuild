@@ -2,6 +2,6 @@ version: '2'
 services:
   progit2build:
     image: snickerjp/progit2-ja-ebookbuild:latest
-    command: sh entrypoint.sh
+    command: sh /myapp/entrypoint.sh
     volumes:
       - "./progit2-ja:/myapp/progit2-ja"
